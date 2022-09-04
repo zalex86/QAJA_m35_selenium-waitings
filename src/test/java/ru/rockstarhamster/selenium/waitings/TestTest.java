@@ -12,7 +12,7 @@ import java.time.Duration;
 public class TestTest {
     @Test
     public void open_google() {
-        System.setProperty("webdriver.chrome.driver", "/home/alex/IdeaProjects/selenium-watings/src/test/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/AleksanDR/IdeaProjects/QAJA_m35_selenium-waitings/src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
